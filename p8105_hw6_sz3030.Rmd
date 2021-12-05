@@ -187,7 +187,7 @@ beta.hat %>%
 ```
 
 
-The distribution of the $log(\hat{\beta_0}*\hat{\beta_1})$ is close to the normal distribution with slight left skewness. The mean value of the $log(\hat{\beta_0}*\hat{\beta_1})$'s distribution is at around 2.0125. In order to construct the 95% confidence interval for $log(\hat{\beta_0}*\hat{\beta_1})$, we could find the 2.5% and 97.5% quantiles of the bootstrap estimates.
+The distribution of the $log(\hat{\beta}_0*\hat{\beta}_1)$ is close to the normal distribution with slight left skewness. The mean value of the $log(\hat{\beta}_0*\hat{\beta}_1)$'s distribution is at around 2.0125. In order to construct the 95% confidence interval for $log(\hat{\beta}_0*\hat{\beta}_1)$, we could find the 2.5% and 97.5% quantiles of the bootstrap estimates.
 
 
 ```{r}
@@ -199,5 +199,5 @@ beta.hat %>%
   )
 ```
 
-Thus, the 95% confidence interval for $log(\hat{\beta_0}*\hat{\beta_1})$ is (1.964949, 2.058887).
+Thus, the 95% confidence interval for $log(\hat{\beta}_0*\hat{\beta}_1)$ is (1.964949, 2.058887).
 
